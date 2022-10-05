@@ -13,12 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-    }
-    public void onBtnClick(View view){
-       TextView txtHello = findViewById(R.id.txtMessage);
-        EditText edtTxtName = findViewById(R.id.edtTxtName);
-        txtHello.setText("Hello " + edtTxtName.getText().toString());
+          }
+          public Void onBtnClick(View view){
+        TextView txtHello=findViewById(R.id.textView2);
+        txtHello.setText("Welcome Dear! ");
+              return null;
+          }
 
-
-    }
 }
